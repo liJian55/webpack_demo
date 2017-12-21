@@ -1,0 +1,14 @@
+body{
+    background: skyblue;
+    color: red;
+    
+}
+#tupian{
+    background-image: url(http://192.168.2.172:8081/images/8fd3889d48afc126dfb602a68faccb27.jpeg);
+    width: 466px;
+    height: 453px;
+}#gogo {
+  width: 300px;
+  height: 200px;
+  background: #000;
+}
