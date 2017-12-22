@@ -1,14 +1,27 @@
-body{
-    background: skyblue;
-    color: red;
-    
+/*! 李坚版权所有 */
+body {
+  background: skyblue;
+  color: red;
 }
-#tupian{
-    background-image: url(http://192.168.2.172:8081/images/8fd3889d48afc126dfb602a68faccb27.jpeg);
-    width: 466px;
-    height: 453px;
-}#gogo {
+
+#tupian {
+  background-image: url(http://192.168.2.172:8081/images/8fd3889d48afc126dfb602a68faccb27.jpeg);
+  width: 466px;
+  height: 453px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-box-shadow: 1px 1px 0 rgba(0, 0, 0, .25);
+  box-shadow: 1px 1px 0 rgba(0, 0, 0, .25);
+}
+
+#gogo {
   width: 300px;
   height: 200px;
   background: #000;
+}
+
+#nav {
+  width: 100%;
+  height: 30px;
+  background: #fff;
 }
